@@ -118,3 +118,5 @@ fi
 
 # Change colour scheme
 xrdb -load ~/.Xresources
+export VISUAL=vim
+export EDITOR="$VISUAL"
