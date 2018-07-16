@@ -120,3 +120,4 @@ fi
 xrdb -load ~/.Xresources
 export VISUAL=vim
 export EDITOR="$VISUAL"
+setxkbmap -layout us -option ctrl:nocaps
