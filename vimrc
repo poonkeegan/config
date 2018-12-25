@@ -2,7 +2,7 @@ syntax enable
 set tabstop=4
 set softtabstop=4
 set expandtab
-set number
+set relativenumber
 set autoindent
 set hlsearch
 set splitright
@@ -20,10 +20,11 @@ let g:netrw_browse_split = 4
 let g:netrw_liststyle = 3
 let g:netrw_winsize = 25
 nnoremap <leader><space> :nohlsearch<CR>
-augroup compile
-    au!
-    autocmd BufWritePost *.tex !latexmk -pdf %
-    autocmd BufWritePost *.tex !git add -A
-    autocmd BufWritePost *.tex !date | git commit -F -
-augroup END
+" Latex autocompile
+"augroup compile
+"    au!
+"    autocmd BufWritePost *.tex !latexmk -pdf %
+"    autocmd BufWritePost *.tex !git add -A
+"    autocmd BufWritePost *.tex !date | git commit -F -
+"augroup END
 

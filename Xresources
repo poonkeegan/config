@@ -84,6 +84,4 @@
 *color7:                S_base2
 *color15:               S_base3
 
-URxvt*font:                 xft:Inconsolata Nerd Font Mono:pixelsize=27:minspace=False, xft:DejaVu Sans:pixelsize=27
-URxvt*boldFont:             xft:Inconsolata Nerd Font Mono:pixelsize=27:minspace=False, xft:DejaVu Sans:pixelsize=27
-URxvt*letterSpace: 0
+URxvt.scrollBar: false

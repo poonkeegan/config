@@ -1,1 +1,5 @@
-xrdb -load ~/.Xresources
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
