@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/config2018/
 cp vimrc ~/.vimrc
 cp tmux.conf ~/.tmux.conf
 cp bashrc ~/.bashrc
@@ -7,3 +8,4 @@ cp Xresources ~/.Xresources
 mkdir -p ~/.config/ranger
 cp rifle.conf ~/.config/ranger/rifle.conf
 cp xinitrc ~/.xinitrc
+cp Xmodmap ~/.Xmodmap

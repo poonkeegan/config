@@ -11,8 +11,8 @@ set ruler
 set ignorecase smartcase
 set tags=./tags,tags;$HOME
 " italics support
-set t_ZH=[3m
-set t_ZR=[23m
+" set t_ZH=[3m
+" set t_ZR=[23m
 let mapleader = ","
 " Setting up the file browser
 let g:netrw_banner = 0
