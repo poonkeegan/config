@@ -85,3 +85,6 @@
 *color15:               S_base3
 
 URxvt.scrollBar: false
+URxvt.font: xft:Droid Sans Mono:size=8, \
+            xft:Droid Sans Japanese:size=8
+URxvt.letterSpacing: -2
