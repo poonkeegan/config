@@ -10,6 +10,7 @@ texlive-more texlive-lang texlive-langextra biber
 deluge
 ffmpeg youtube-dl
 ibus-mozc ibus-cangjie tegaki-models-zinnia-japanese
+gmrun
 
 Aur helper yay:
 To search for a package
