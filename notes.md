@@ -11,6 +11,7 @@ deluge
 ffmpeg youtube-dl
 ibus-mozc ibus-cangjie tegaki-models-zinnia-japanese
 gmrun
+sylpheed
 
 Aur helper yay:
 To search for a package
