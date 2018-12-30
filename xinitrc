@@ -1,2 +1,2 @@
 xrdb -load ~/.Xresources &
-xmodmap ~/.xmodmap &
+xmodmap ~/.Xmodmap &
