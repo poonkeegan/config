@@ -17,11 +17,14 @@ set tags=./tags,tags;$HOME
 " set t_ZR=[23m
 let mapleader = ","
 " Setting up the file browser
+set path+=**
+filetype plugin on
 let g:netrw_banner = 0
 let g:netrw_browse_split = 4
 let g:netrw_liststyle = 3
 let g:netrw_winsize = 25
 nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>t !ctags -R .
 " Latex autocompile
 "augroup compile
 "    au!

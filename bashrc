@@ -15,3 +15,8 @@ fi
 BROWSER=/usr/bin/firefox
 EDITOR=/usr/bin/vim
 VISUAL=vim
+
+# Add aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
