@@ -2,12 +2,14 @@ syntax enable
 set tabstop=4
 set softtabstop=4
 set expandtab
+set nocompatible
 set relativenumber
 set autoindent
 set hlsearch
 set splitright
 set hidden
 set ruler
+set wildmenu
 set ignorecase smartcase
 set tags=./tags,tags;$HOME
 " italics support
