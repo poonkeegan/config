@@ -6,5 +6,3 @@ cp bash_profile ~/.bash_profile
 cp Xresources ~/.Xresources
 mkdir -p ~/.config
 cp -r ranger ~/.config/.
-cp xinitrc ~/.xinitrc
-cp Xmodmap ~/.Xmodmap

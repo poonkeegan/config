@@ -3,7 +3,7 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 set nocompatible
-set relativenumber
+set number relativenumber
 set autoindent
 set hlsearch
 set splitright

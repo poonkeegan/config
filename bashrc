@@ -20,3 +20,5 @@ VISUAL=vim
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+eval `dircolors ~/Documents/git_repos/dircolors-solarized/dircolors.ansi-light`
