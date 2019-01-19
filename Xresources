@@ -84,7 +84,15 @@
 *color7:                S_base2
 *color15:               S_base3
 
-URxvt.scrollBar: false
+! Fonts
 URxvt.font: xft:Droid Sans Mono:size=8, \
             xft:Droid Sans Japanese:size=8
 URxvt.letterSpacing: -2
+URxvt.transparent:true
+
+! Links
+URxvt.perl-ext-common: default,matcher,fullscreen
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+
+URxvt.scrollBar: false
